@@ -27,6 +27,17 @@ body {
     color: #FF900E;
 }
 
+/* Custom styling for the vertical line */
+.vertical_line {
+    border-left: 5px solid #FF900E;
+    /* Border style */
+    height: 106px;
+    /* Height of the vertical line */
+    margin: 0 20px;
+    /* Add some horizontal margin to create space */
+    /* You can add more CSS properties here to further customize the appearance */
+}
+
 /* Header */
 header {
     display: flex;
@@ -130,4 +141,90 @@ header {
     font-size: 16px;
     font-weight: 400;
     max-width: 537px;
+}
+
+/* Love Features */
+.love_features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    margin-bottom: 207px;
+}
+
+.love_features_title {
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 21px;
+}
+
+.love_features_description {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 586px;
+}
+
+.love_feature {
+    text-align: center;
+    max-width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.love_feature_title {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.love_feature_description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.love_features_image{
+    position: relative;
+}
+
+.love_features_image img {
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+
+.img_styel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    /* Position the button relative to the container */
+    top: 87%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    /* Center the button using transform */
+    margin-top: 40px;
+    /* Add any desired top margin */
+}
+
+.img_styel div h1 {
+    font-size: 65px;
+    color: #FFF;
+    font-weight: 700;
+    margin: 0;
+}
+
+.img_styel div p {
+    text-align: center;
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 500;
+    margin: 0;
 }
