@@ -1,0 +1,29 @@
+/* Styel For All */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.commpany_name {
+    font-size: 45px;
+    font-weight: 700;
+}
+.navigation_bar{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation_bar li{
+    list-style: none;
+    margin-right: 50px;
+}
