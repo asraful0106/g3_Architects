@@ -19,6 +19,14 @@ body {
     font-weight: 600;
 }
 
+.primary_color {
+    color: #727272;
+}
+
+.secnondary_color {
+    color: #FF900E;
+}
+
 /* Header */
 header {
     display: flex;
@@ -82,10 +90,44 @@ header {
     justify-content: center;
     background: rgba(255, 144, 14, 0.10);
 }
-.big_img img{
+
+.big_img img {
     border-radius: 8px;
     width: 1440px;
     height: 700px;
     margin-top: 70px;
     margin-bottom: 46px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    padding-left: 301px;
+    padding-right: 301px;
+}
+
+.photo_collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Change the number to adjust the number of columns */
+    gap: 10px;
+    /* Adjust the gap between images */
+}
+
+.features_contenier {
+    margin-left: 73px;
+}
+
+.feature_title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feature_description {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 537px;
 }
