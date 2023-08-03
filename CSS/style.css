@@ -75,3 +75,17 @@ header {
     margin-top: 40px;
     /* Add any desired top margin */
 }
+
+/* Big Image */
+.big_img {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 144, 14, 0.10);
+}
+.big_img img{
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
+    margin-top: 70px;
+    margin-bottom: 46px;
+}
